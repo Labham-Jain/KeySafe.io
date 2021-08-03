@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 200px;
+}
+.form {
+  margin-top: 30px;
+}
+.inputContainer {
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+  height: 50px;
+  border: 1px solid #eee;
+  background: rgb(250, 250, 250);
+  display: flex;
+  position: relative;
+}
+.showHideField {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputField {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background: rgba(0, 32, 198, 0.6);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.inputField:-webkit-autofill {
+  -webkit-text-fill-color: rgba(0, 32, 198, 0.6) !important;
+}
+.passwordBtn {
+  background: none;
+  outline: none;
+  border: none;
+}
+.svgIcon {
+  width: 40px;
+}
+.loginBtn {
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 32, 198, 0.6);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
